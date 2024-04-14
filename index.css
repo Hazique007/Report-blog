@@ -647,14 +647,15 @@ aside {
 .bold{
     font-size: 25px;
     font-weight:500;
+   
 }
 
-.centeralign{
+/* .centeralign{
     display:contents;
     justify-content: center;
 
    text-align: center;
-}
+} */
 .big{
 
     font-size: 20px;
@@ -668,4 +669,9 @@ aside {
 .source{
 
     color: #777;
+}
+.formula{
+
+     display: flex;
+     justify-content: center;
 }
