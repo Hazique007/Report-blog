@@ -82,6 +82,24 @@ html{
     height: 50vh; 
 }
 
+.right-image{
+
+    text-align: right; /* Horizontal centering */
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    height: 50vh; 
+}
+
+.left-image{
+
+    text-align: left; /* Horizontal centering */
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 1vh; 
+}
+
 .centre-image img{
 
     /* max-width: 100%;
@@ -624,6 +642,22 @@ aside {
     font-size: 28px;
     font-weight: bold;
     
+}
+
+.bold{
+    font-size: 25px;
+    font-weight:500;
+}
+
+.centeralign{
+    display:contents;
+    justify-content: center;
+
+   text-align: center;
+}
+.big{
+
+    font-size: 20px;
 }
 
 .link a:hover{
