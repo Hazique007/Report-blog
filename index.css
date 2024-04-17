@@ -717,6 +717,7 @@ aside {
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 5px;
+    padding: 10px;
     
 }
 
@@ -726,18 +727,4 @@ aside {
     justify-content: center;
     gap: 250px;
 }
-
-.section {
-    opacity: 0;
-    transform: translateY(50px);
-    transition: opacity 0.2s, transform 0.2s;
-  }
-  .section.animate {
-    opacity: 1;
-    transform: translateY(0);
-  }
-
-
-
-
 
