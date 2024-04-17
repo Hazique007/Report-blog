@@ -63,6 +63,7 @@ html{
     align-items: center;
     justify-content: center;
     position: sticky;
+    z-index: 1000;
     top: 0;
     cursor: pointer;
     
@@ -176,7 +177,7 @@ html{
 
 .background {
 
-    background: rgba(50, 50, 50, 0.7) url('../png/gg.png');
+    background: rgba(50, 50, 50, 0.7) url('../png/gg1.jpg');
     background-size: cover;
     background-blend-mode: darken;
 
@@ -351,9 +352,34 @@ aside {
 
 }
 
+.btn-sms {
+    padding: 6px 10px;
+    vertical-align: middle;
+
+    margin: 7px 3px;
+    border: 2px solid white;
+    background: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+    font-family: poppins, sans-serif;
+    font-size: 14px;
+
+
+}
+
 .btn-sm:hover {
 
     color: aqua;
+    
+}
+
+.btn-sms:hover {
+
+    color: rgb(34, 255, 0);
+    border: 2px solid white;
+    
+    
 }
 
 
@@ -480,6 +506,7 @@ aside {
     text-align: center;
     padding: 10px;
     color: white;
+    margin-bottom: 0;
 }
 
 
@@ -512,6 +539,13 @@ aside {
 }
 
 @media only screen and (max-width :1140px){
+
+    
+.contimg{
+    display: none;
+
+
+    }
 
 .navlist{
 
@@ -607,6 +641,7 @@ aside {
 .textfoot{
 
     font-size: 10px;
+    
 }
 
 
@@ -675,3 +710,34 @@ aside {
      display: flex;
      justify-content: center;
 }
+
+.cardbox{
+
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 5px;
+    
+}
+
+.contactcont{
+
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+}
+
+.section {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.2s, transform 0.2s;
+  }
+  .section.animate {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+
+
+
+
