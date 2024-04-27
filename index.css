@@ -601,6 +601,15 @@ aside {
     flex-direction: column-reverse;
 }
 
+.main{
+
+    flex-direction: column-reverse;
+
+
+
+
+}
+
 .tbig{
 
     text-align: center;
